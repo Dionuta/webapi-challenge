@@ -48,7 +48,7 @@ router.put("/:id", validateActionId, async (req, res) => {
     res.status(200).json(actionUpdated);
   } catch (error) {
     res.status(500).json({
-      message: "Error updating the user"
+      message: "Error updating the action"
     });
   }
 });
