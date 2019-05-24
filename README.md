@@ -24,15 +24,15 @@ In this challenge, create a web API around the following resources: `Projects` a
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [x] Mention two parts of Express that you learned about this week.
 
-- [ ] Describe Middleware?
+- [x] Describe Middleware?
 
-- [ ] Describe a Resource?
+- [x] Describe a Resource?
 
-- [ ] What can the API return to help clients know if a request was successful?
+- [x] What can the API return to help clients know if a request was successful?
 
-- [ ] How can we partition our application into sub-applications?
+- [x] How can we partition our application into sub-applications?
 
 ## Project Setup
 
@@ -47,9 +47,9 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master on your fork. **Please don't merge your own pull request.**
-- [ ] Add your _Project Manager_ as a Reviewer on the Pull-request
-- [ ] Your _Project Manager_ will count the challenge as done by merging the branch into _master_.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master on your fork. **Please don't merge your own pull request.**
+- [x] Add your _Project Manager_ as a Reviewer on the Pull-request
+- [x] Your _Project Manager_ will count the challenge as done by merging the branch into _master_.
 
 ## Database Persistence Helpers
 
@@ -68,13 +68,13 @@ The `projectModel.js` helper includes an extra method called `getProjectActions(
 
 ## Minimum Viable Product
 
-- [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
-- [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+- [x] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
+- [x] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
 
 Design and build the necessary endpoints to:
 
-- [ ] Perform CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
-- [ ] Retrieve the list of actions for a project.
+- [x] Perform CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
+- [x] Retrieve the list of actions for a project.
 
 ### Database Schemas
 
